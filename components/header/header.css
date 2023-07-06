@@ -1,0 +1,22 @@
+body {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #fff;
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    position: sticky;
+    background: #fff;
+    padding-left: 78px;
+}
+
+.nav-link {
+    margin-right: 15px;
+}
+
+.btn {
+    margin-left: 275px;
+}
