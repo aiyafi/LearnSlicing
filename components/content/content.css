@@ -9,6 +9,7 @@ p {
 }
 
 .content {
+    margin: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,4 +46,5 @@ p {
     border-radius: 8px;
     padding: 12px 25px 12px 25px;
     align-self: flex-start;
+    font-weight: 500;
 }

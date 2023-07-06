@@ -7,16 +7,37 @@ body {
     background-position: center;
 }
 
-.header {
-    position: sticky;
-    background: #fff;
-    padding-left: 78px;
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 99;
 }
 
-.nav-link {
-    margin-right: 15px;
+.logo {
+    margin-left: 75px;
 }
 
-.btn {
-    margin-left: 275px;
+.nav-bar a {
+    position: relative;
+    font-size: 1.1em;
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 50px;
+}
+
+
+.button-register {
+    background: #ffffff;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #000000;
+    font-weight: 500;
+    padding: 10px 20px;
+    margin-left: 450px;
 }
