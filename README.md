@@ -1,0 +1,3 @@
+# LearnSlicing
+
+```npm run dev ```
